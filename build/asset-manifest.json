@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.840a99ec.css",
+    "main.js": "/static/js/main.41214d47.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/simple hangman game.png": "/static/media/simple hangman game.06485186c3cebe4a0427.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/profilePicture.png": "/static/media/profilePicture.33438816a6f3ead8e779.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/me.png": "/static/media/me.a244fbb39019029ab74d.png",
+    "static/media/CV of Tarryn Emily Wallie.pdf": "/static/media/CV of Tarryn Emily Wallie.8dcbdae59974d4525d9e.pdf",
+    "static/media/school website.png": "/static/media/school website.01f61023ecc3ce52cd35.png",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/react chat app.png": "/static/media/react chat app.ed71387d3baab4901b04.png",
+    "static/media/logo.png": "/static/media/logo.8df1ec3b141d5f75ea97.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/simple python calculator.png": "/static/media/simple python calculator.542d06e4adc5bafedc0f.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "index.html": "/index.html",
+    "main.840a99ec.css.map": "/static/css/main.840a99ec.css.map",
+    "main.41214d47.js.map": "/static/js/main.41214d47.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.840a99ec.css",
+    "static/js/main.41214d47.js"
+  ]
+}

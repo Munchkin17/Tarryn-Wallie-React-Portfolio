@@ -16,20 +16,30 @@ export const Projects = () => {
 
   const websiteProjects = [
     {
-      title: "Mzamomtsha School Website",
+      title: "Mzamomtsha School Website",      
       description: "A school website developed using HTML, CSS, Bootstrap & Javascript",
       imgUrl: schoolWebsite,
+      githubLink:"https://github.com/Munchkin17/Mzamomtsha-Primary-School-Website",
     },
     {
       title: "React Chat App",
       description: "Chat application designed and developed using React Js, Node Js, and Chat Engine",
       imgUrl: chatApp,
+      githubLink:"https://github.com/Munchkin17/React-Chat-App"
     },
     {
       title: "Simple Python Calculator",
       description: "A python calculator developed and designed using python & tkinter",
       imgUrl: pythonCalculator,
-    }
+      githubLink: "https://github.com/Munchkin17/Simple-Python-Calculator-with-GUI"
+    },
+    {
+      title: "Banking App with GUI",
+      description: "A banking app developed and designed using python & tkinter",
+      imgUrl: pythonCalculator,
+      githubLink: "https://github.com/Munchkin17/BankingAppWithGUI"
+    },
+
     
   ];
 

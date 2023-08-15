@@ -8,6 +8,8 @@ import hangmanGame from "../assets/img/simple hangman game.png"
 import schoolWebsite from "../assets/img/school website.png";
 import chatApp from "../assets/img/react chat app.png";
 import pythonCalculator from "../assets/img/simple python calculator.png";
+import bankingApp from "../assets/img/python banking app.png";
+import starFlix from "../assets/img/StarFlix.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from "@testing-library/user-event/dist/utils";
@@ -36,10 +38,15 @@ export const Projects = () => {
     {
       title: "Banking App with GUI",
       description: "A banking app developed and designed using python & tkinter",
-      imgUrl: pythonCalculator,
+      imgUrl: bankingApp,
       githubLink: "https://github.com/Munchkin17/BankingAppWithGUI"
     },
-
+    {
+      title: "StarFlix",
+      description: "Coming Soon",
+      imgUrl: starFlix,
+      githubLink: ""
+    },
     
   ];
 
@@ -52,6 +59,7 @@ export const Projects = () => {
       title: "Word Wizard",
       description: "A simple hangman game using HTML, CSS & Javascript",
       imgUrl: hangmanGame,
+      githubLink: "https://github.com/Munchkin17/Word-Wizard-Game"
     }
     
   ];
@@ -128,7 +136,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }

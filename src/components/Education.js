@@ -1,8 +1,5 @@
-import { Row, Container, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import 'animate.css';
-
-
-
 
 export const Education = () => {
     return (

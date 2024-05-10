@@ -9,7 +9,7 @@ import schoolWebsite from "../assets/img/school website.png";
 import chatApp from "../assets/img/react chat app.png";
 import pythonCalculator from "../assets/img/simple python calculator.png";
 import bankingApp from "../assets/img/python banking app.png";
-import starFlix from "../assets/img/StarFlix.png";
+import redQueen from "../assets/img/red-queen-lpage.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from "@testing-library/user-event/dist/utils";
@@ -22,30 +22,35 @@ export const Projects = () => {
       description: "A school website developed using HTML, CSS, Bootstrap & Javascript",
       imgUrl: schoolWebsite,
       githubLink:"https://github.com/Munchkin17/Mzamomtsha-Primary-School-Website",
+      demoLink: ""
     },
     {
       title: "React Chat App",
       description: "Chat application designed and developed using React Js, Node Js, and Chat Engine",
       imgUrl: chatApp,
-      githubLink:"https://github.com/Munchkin17/React-Chat-App"
+      githubLink:"https://github.com/Munchkin17/React-Chat-App",
+      demoLink: ""
     },
     {
       title: "Simple Python Calculator",
       description: "A python calculator developed and designed using python & tkinter",
       imgUrl: pythonCalculator,
-      githubLink: "https://github.com/Munchkin17/Simple-Python-Calculator-with-GUI"
+      githubLink: "https://github.com/Munchkin17/Simple-Python-Calculator-with-GUI",
+      demoLink: ""
     },
     {
       title: "Banking App with GUI",
       description: "A banking app developed and designed using python & tkinter",
       imgUrl: bankingApp,
-      githubLink: "https://github.com/Munchkin17/BankingAppWithGUI"
+      githubLink: "https://github.com/Munchkin17/BankingAppWithGUI",
+      demoLink: ""
     },
     {
-      title: "StarFlix",
-      description: "Coming Soon",
-      imgUrl: starFlix,
-      githubLink: ""
+      title: "Red Queen Landing Page",
+      description: "A simple landing page developed and designed using React.js",
+      imgUrl: redQueen,
+      githubLink: "https://github.com/Munchkin17/RED_QUEEN",
+      demoLink: "https://red-queen-landing-page.netlify.app/"
     },
     
   ];
@@ -59,7 +64,8 @@ export const Projects = () => {
       title: "Word Wizard",
       description: "A simple hangman game using HTML, CSS & Javascript",
       imgUrl: hangmanGame,
-      githubLink: "https://github.com/Munchkin17/Word-Wizard-Game"
+      githubLink: "https://github.com/Munchkin17/Word-Wizard-Game",
+      demoLink: ""
     }
     
   ];

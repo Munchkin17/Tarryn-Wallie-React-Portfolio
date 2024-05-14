@@ -16,7 +16,7 @@ export const Education = () => {
                     <div className="qualification">
                         <h4>Certificate in Systems Development</h4>
                         <p>CapaCiTi Tech Career ACCELERATOR</p>
-                        <span>2023 - Present</span>
+                        <span>2023 - 2024</span>
                     </div>
                     <div className="qualification">
                         <h4>National Senior Certificate</h4>

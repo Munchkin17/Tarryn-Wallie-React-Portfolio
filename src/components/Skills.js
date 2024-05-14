@@ -12,6 +12,9 @@ import phpLogo from "../assets/img/php_logo.png";
 import pythonLogo from "../assets/img/python_logo.png";
 import reactLogo from "../assets/img/react_logo.png";
 import jsLogo from "../assets/img/js_logo.png";
+import wordpressLogo from "../assets/img/js_logo.png";
+import adobeIllusLogo from "../assets/img/js_logo.png";
+import photoshopLogo from "../assets/img/js_logo.png";
 //import colorSharp from "../assets/img/color-sharp.png";
 
 
@@ -47,47 +50,46 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={htmlLogo} alt="HTML logo" />
                                     <h3>HTML</h3>
-                                </div>
-                                <div className="item">
                                     <img src={cssLogo} alt="CSS logo" />
                                     <h3>CSS</h3>
                                 </div>
                                 <div className="item">
                                     <img src={bsLogo} alt="Bootstrao logo" />
                                     <h3>Bootstrap</h3>
-                                </div>
-                                <div className="item">
                                     <img src={jsLogo} alt="Javascript logo" />
                                     <h3>JavaScript</h3>
                                 </div>
                                 <div className="item">
                                     <img src={reactLogo} alt="React logo" />
                                     <h3>React</h3>
-                                </div>
-                                <div className="item">
                                     <img src={nodeLogo} alt="Node JS logo" />
                                     <h3>Node JS</h3>
                                 </div>
                                 <div className="item">
-                                    <img src={pythonLogo} alt="Python logo" />
+                                <img src={pythonLogo} alt="Python logo" />
                                     <h3>Python</h3>
-                                </div>
-                                <div className="item">
                                     <img src={javaLogo} alt="Java logo" />
                                     <h3>Java</h3>
                                 </div>
                                 <div className="item">
                                     <img src={sqlLogo} alt="SQL logo" />
                                     <h3>SQL</h3>
-                                </div>
-                                <div className="item">
                                     <img src={phpLogo} alt="PHP logo" />
                                     <h3>PHP</h3>
                                 </div>
                                 <div className="item">
-                                    <img src={csharpLogo} alt="C# logo" />
+                                <img src={csharpLogo} alt="C# logo" />
                                     <h3>C#</h3>
+                                    <img src={wordpressLogo} alt="Wordpress logo" />
+                                    <h3>Wordpress</h3>
                                 </div>
+                                <div className="item">
+                                <img src={adobeIllusLogo} alt="Adobe Illustrator logo" />
+                                    <h3>Adobe Illustrator</h3>
+                                    <img src={photoshopLogo} alt="Photoshop logo" />
+                                    <h3>Adobe Photoshop</h3>
+                                </div>
+                            
                             </Carousel>
                         </div>
                     </Col>

@@ -1,11 +1,18 @@
 import { useState, useEffect} from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 /*import { ArrowRightCircle } from "react-bootstrap-icons";*/
 import me from "../assets/img/profilePicture.png";
 /*import headerImg from "../assets/img/header-img.svg";*/
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 /*import { isVisible } from "@testing-library/user-event/dist/utils";*/
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoGithub } from "react-icons/bi";
+/*import { BsSun } from "react-icons/bs";
+import { BsMoonStars } from "react-icons/bs";*/
+import cvTarrynWallie from '../assets/CV of Tarryn Emily Wallie.pdf';
+
 
 export const Banner  = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -55,7 +62,20 @@ export const Banner  = () => {
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{`Hi I'm Tarryn Wallie`}<span className="wrap"> {text}</span></h1>
                                 <p> A junior developer with experience in front-end and back-end development.</p>
+                                
+                                <span className="buttons-in-banner">
+              {/*<div className="social-icon">
+                <a href="https://www.linkedin.com/in/tarryn-wallie-a290441ba/" ><BiLogoLinkedin/></a>
+                <a href="https://github.com/Munchkin17"><BiLogoGithub/></a>
+                 
+</div>*/}
+              
+                <button className="connectBtn"><span><a href="#connect" style={{color: 'white'}}>Let's Connect</a></span></button>
+                <button className="downloadBtn"><span><a download="CV of Tarryn Emily Wallie" href={cvTarrynWallie} style={{color: 'white'}}>Download CV</a></span></button>
+
+            </span>
                             </div>}
+                            
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

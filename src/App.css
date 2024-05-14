@@ -259,7 +259,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
  }
 
-.downloadBtn, .connectBtn:hover{
+ .downloadBtn{
+  color: white;
+ }
+
+.downloadBtn:hover, .connectBtn:hover{
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
 }
 
@@ -333,6 +337,59 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+.buttons-in-banner a{
+  text-decoration: none;
+}
+
+span.buttons-in-banner {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: -30px;
+  justify-content: space-evenly;
+
+}
+.buttons-in-banner button{
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 20px 20px;
+  font-size: 20px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  
+}
+.buttons-in-banner button span{
+  z-index: 1;
+}
+.buttons-in-banner button::before{
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+.buttons-in-banner button:hover{
+  color: #121212;
+  border-radius: 28px;
+}
+.buttons-in-banner button:hover::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  border-radius: 20px;
 }
 
 

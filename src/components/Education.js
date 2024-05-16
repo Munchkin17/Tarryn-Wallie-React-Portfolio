@@ -23,6 +23,8 @@ export const Education = () => {
                         <p>Muizenberg High School</p>
                         <span>2015 - 2019</span>
                     </div>
+
+                    
                     
                 </Col>
             </Container>

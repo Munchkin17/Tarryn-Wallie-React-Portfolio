@@ -525,7 +525,7 @@ span.buttons-in-banner {
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 50px;
   padding: 17px 0;
   color: #fff;
   width: 100%;
@@ -569,7 +569,7 @@ span.buttons-in-banner {
 .proj-imgbx {
   height: 200px;
   position: relative;
-  border-radius: 30px;
+  border-radius: 40px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -631,7 +631,7 @@ span.buttons-in-banner {
   font-weight: 700;
   color: #fff;
   border: 2px solid #fff;
-  border-radius: 20px;
+  border-radius: 40px;
   padding: 5px 10px;
   font-size: 14px;
   margin-left: 18px;
@@ -654,14 +654,14 @@ span.buttons-in-banner {
 }
 .proj-txtx span a:hover{
   color: #121212;
-  border-radius: 28px;
+  border-radius: 40px;
 }
 .proj-txtx a:hover::before{
 	content: "";
 	width: 100%;
 	height: 100%;
 	position: absolute;
-  border-radius: 20px;
+  border-radius: 40px;
 }
 /************ Contact CSS ************/
 .contact {
@@ -723,7 +723,8 @@ span.buttons-in-banner {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border-radius: 20px;
   width: 0;
   height: 100%;
   position: absolute;
@@ -735,7 +736,6 @@ span.buttons-in-banner {
 .contact form button:hover::before {
   width: 100%;
 }
-
 
 /************ Footer Css ************/
 .footer{
